@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <div class="mainContent">
+      <div class="heading">
+        <h1>Naveen's Typing Club</h1>
+      </div>
+      <div class="mainScreen">
+        <div class="text">
+          <h1 class="changeable"></h1>
+        </div>
+      </div>
+      <div class="input1">
+        <input
+          type="text"
+          name=""
+          id="input"
+          class="input"
+          placeholder="Write here"
+        />
+      </div>
+
+      <div class="mainOfCounter">
+        <!-- Time counter -->
+        <div class="halfCircle">
+          <div class="speedCounter">
+            <div class="arrow">
+              <h1 id="time">60</h1>
+            </div>
+          </div>
+          <h1>Time</h1>
+        </div>
+
+        <!-- accuracy Counter -->
+        <div class="halfCircle">
+          <h1>Accuracy</h1>
+          <div class="accuracyCounter">
+            <div class="arrow">
+              <h1 id="accuracy">0</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- time over page -->
+        <div class="aboveScreenPage">
+          <div class="continer">
+            <div class="accuracy"></div>
+            <div class="WPM"></div>
+            <div class="Speed"></div>
+          </div>
+          <button onclick="location.reload()" id="okay">Restart</button>
+        </div>
+        <script src="homePage.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
